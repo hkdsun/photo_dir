@@ -11,9 +11,11 @@
 </head>
 <body>
   <div class="photos-container" style="text-align:center">
-    <% imgs.each do |img| %>
-      <img src="<%= img %>" style="max-width:70%">
-    <% end %>
+    <div style="width: 100%; max-width: 800px; margin: 0 auto">
+      <% imgs.each do |img| %>
+        <img src="<%= img %>" style="max-width:100%">
+      <% end %>
+    </div>
   </div>
 </body>
 </html>
