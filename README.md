@@ -1,6 +1,6 @@
 # PhotoDir
 
-Docker container that serves a dead-simple HTTP endpoint with images in a directory (my usecase is to serve them in descending modified_time order).
+Docker container that serves a dead-simple HTTP endpoint (using [Sinatra](https://sinatrarb.com/)) with images in a directory (my usecase is to serve them in descending modified_time order).
 
 Useful for seamlessly integrating with the Adobe Lightroom's "publish to directory" feature.
 
